@@ -1,0 +1,1 @@
+ffmpeg -i "G:\SSIS-698 三上悠亜と新ありなと相沢みなみ\ssis-698-4k.mp4" -i "G:\SSIS-698 三上悠亜と新ありなと相沢みなみ\9ssis698pl.jpg" -map 0 -map 1 -c copy -c:v:1 png -disposition:v:1 attached_pic "G:\SSIS-698 三上悠亜と新ありなと相沢みなみ\1ssis-698-4k.mp4"
